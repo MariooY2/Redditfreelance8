@@ -22,7 +22,7 @@ export default function RootLayout({
             </h1>
           </div>
           <div className="flex justify-center items-center">
-            <div className="w-4/12 flex">
+            <div className="max-w-screen-sm flex">
               <Header />
               {children}
             </div>

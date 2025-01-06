@@ -68,9 +68,9 @@ const resources = [
 
 const ResourceSection = () => {
   return (
-    <div className="container mx-auto py-12 px-6">
+    <div className="container mx-auto py-24 px-6">
       <h1 className="text-3xl font-extrabold text-center mb-12">Resources</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2  gap-12">
         {resources.map((section, index) => (
           <div key={index} className="p-6 border rounded-lg shadow-lg bg-white">
             <h2 className="text-xl font-semibold mb-4 text-blue-700">

@@ -15,7 +15,7 @@ const MainSection = () => {
     <main className="container mx-auto py-16">
       <section className="text-center">
         {/* Main Image Section */}
-        <div className="relative w-full h-[20rem] md:h-[22rem] lg:h-[25rem] mb-8">
+        <div className="relative w-full h-[20rem] md:h-[22rem] lg:h-[25rem] mb-2">
           <Image
             src="/downloaded_images/a1bbd4_bb6934bbe15a4ba4bb3b26a1f599a2af~mv2.jpg"
             alt="Daniel Oliveira"
@@ -25,7 +25,7 @@ const MainSection = () => {
           />
         </div>
 
-        <h2 className="text-xl font-medium mb-4">
+        <h2 className="text-xs font-medium mb-4">
           This is but a distraction of a story in action.
         </h2>
 
