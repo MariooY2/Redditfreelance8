@@ -5,9 +5,7 @@ const Header = () => {
     <header>
       {/* Sidebar Menu */}
       <div
-        className={`fixed top-0 left-0 h-full w-64  text-white p-2 transition-transform duration-300 z-10 ${
-          true ? "translate-x-0" : "-translate-x-full"
-        } md:translate-x-0 md:static md:w-36`}
+        className=" top-0 left-0 h-full text-white p-2 transition-transform duration-300 z-10 md:translate-x-0 static sm:w-36 w-16"
       >
         <nav className="text-black">
           <ul className="space-y-2 text-xs mt-20">

@@ -7,7 +7,7 @@ const AboutSection = () => {
       {/* About Me Section */}
       <section className="mb-16 text-start">
         <h2 className="text-2xl font-bold mb-6">About Me</h2>
-        <div className="relative h-[22rem] w-[35rem]  mx-auto ">
+        <div className="relative h-[22rem] w-full  mx-auto ">
           <Image
             src="/downloaded_images/a1bbd4_3a9d4bbd6b3c41f0b68931f9f05d899a~mv2_d_6504_2336_s_2.jpg"
             alt="About Daniel Oliveira"
